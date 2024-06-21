@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krish</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#home">Krish's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="vh-100 d-flex justify-content-center align-items-center text-center text-white" style="background: url('hero-background.jpg') no-repeat center center/cover;">
+    <div>
+      <h1 data-aos="fade-up">Hello, I'm Krish</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Creative Developer & Designer</p>
+      <a href="#about" class="btn btn-primary mt-3" data-aos="fade-up" data-aos-delay="400">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="pic.png" alt="Profile Picture" class="rounded-circle img-fluid" data-aos="fade-right">
+      </div>
+      <div class="col-md-8" data-aos="fade-left">
+        <h2>About Me</h2>
+        <p class="lead">
+            Hi, I'm Krish, a passionate developer specializing in web technologies, Python scripting, and cybersecurity. 
+            With a knack for crafting robust solutions, I enjoy diving deep into coding challenges that push boundaries 
+            and enhance digital security. Let's build secure and innovative solutions together!
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-secondary py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="fade-up">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="zoom-in">
+          <div class="card bg-dark text-white">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of the project...</p>
+              <a href="project1-details.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="zoom-in">
+          <div class="card bg-dark text-white">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of the project...</p>
+              <a href="project1-details.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="zoom-in">
+          <div class="card bg-dark text-white">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of the project...</p>
+              <a href="project1-details.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other projects -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container py-5">
+    <h2 class="text-center mb-5" data-aos="fade-up">Skills</h2>
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-right">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <!-- More skills -->
+        </ul>
+      </div>
+      <div class="col-md-4" data-aos="fade-up">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Problem-Solving</li>
+          <!-- More skills -->
+        </ul>
+      </div>
+      <div class="col-md-4" data-aos="fade-left">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Certified Scrum Master</li>
+          <li>Google Analytics Certified</li>
+          <!-- More certifications -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-secondary py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" data-aos="fade-up">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8" data-aos="fade-up">
+          <div class="card bg-dark text-white shadow-lg">
+            <div class="card-body">
+              <form action="mailto:your.email@example.com" method="post" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" class="form-control bg-secondary text-white border-light" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" class="form-control bg-secondary text-white border-light" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" class="form-control bg-secondary text-white border-light" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send</button>
+              </form>
+              <div class="text-center mt-4">
+                <h5>Connect with me</h5>
+                <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline-light mx-2">LinkedIn</a>
+                <a href="https://github.com/yourprofile" class="btn btn-outline-light mx-2">GitHub</a>
+                <a href="https://twitter.com/yourprofile" class="btn btn-outline-light mx-2">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
